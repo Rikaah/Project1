@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Restaurant Website</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo"><img src="./images/main-logo.png"></a>
+
+        <nav class="navbar">
+            <a href="#home" class="active">home</a>
+            <a href="#about">about</a>
+            <a href="#menu">menu</a>
+            <a href="#team">team</a>
+            <a href="#blog">blog</a>
+        </nav>
+
+        <div class="icons">
+            <i class="fas fa-bars" id="menu"></i>
+            <i class="fas fa-search"></i>
+            <i class="fas fa-heart"></i>
+            <i class="fas fa-shopping-cart"></i>
+        </div>
+    </header>
+    <div class="home" id="home">
+        <div class="swiper home-slider">
+            <div class="swiper-wrapper wrapper">
+                <div class="swiper-slide slide slide1">
+                    <div class="content">
+                        <img src="./images/main-logo.png">
+
+                        <h3>Fresh Taste</h3>
+                        <h1>Georgian Cuisine</h1>
+                        <p>Best Khinkhali and Khachapuri in the city</p>
+                        <a href="#" class="btn">Order Now</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide slide2">
+                    <div class="content">
+                        <img src="./images/main-logo.png">
+
+                        <h3>Fresh Taste</h3>
+                        <h1>Italian Cuisine</h1>
+                        <p>best pizza you will ever taste</p>
+                        <a href="#" class="btn">Order Now</a>
+                    </div>
+                </div>
+                <div class="swiper-slide slide slide3">
+                    <div class="content">
+                        <img src="./images/main-logo.png">
+
+                        <h3>Fresh Taste</h3>
+                        <h1>German Cuisine</h1>
+                        <p>anything tastes better with beer</p>
+                        <a href="#" class="btn">Order Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+
+<section class="welcome" id="about">
+    <h1 class="heading">WELCOME TO FRESH TASTE</h1>
+    <center><h3 class="sub-heading">~ Luxury & Quality ~</h3></center>
+
+    <div class="box-container">
+        <div class="box">
+            <div class="image">
+                <img src="./images/post-thumb-1.jpg">
+            </div>
+
+            <div class="content">
+                <h3>MADE BY PROFESSIONALS</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam odit omnis ratione adipisci veritatis cum mollitia quaerat consequuntur sapiente nihil.
+                </p>
+
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="./images/post-thumb-2.jpg">
+            </div>
+
+            <div class="content">
+                <h3>FOOD FROM DIFFERENT COUNTRIES</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam odit omnis ratione adipisci veritatis cum mollitia quaerat consequuntur sapiente nihil.
+                </p>
+
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="./images/post-thumb-3.jpg">
+            </div>
+
+            <div class="content">
+                <h3>MADE WITH PASSION</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam odit omnis ratione adipisci veritatis cum mollitia quaerat consequuntur sapiente nihil.
+                </p>
+
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="our-menu" id="menu">
+    <h1 class="heading">Food Menu</h1>
+    <center><h3 class="sub-heading">~ see what's on menu ~</h3></center>
+
+    <div class="menu-container">
+        <div class="item">
+            <div class="item-name">
+                <h2>Main Course</h2>
+                <img src="./images/drinks.png">
+            </div>
+            <div class="item-body">
+                <div class="item-menu">
+                    <h3>Pepperoni Pizza</h3>
+                    <span class="dots"></span>
+                    <h3>15$</h3>
+
+                    <ul>
+                        <li><a href="#">Italian</a></li>
+                        <li><a href="#">Pepperoni</a></li>
+                        <li><a href="#">Sauce</a></li>
+                        <li><a href="#">Cheese</a></li>
+                    </ul>
+                </div>
+
+                <div class="item-menu">
+                    <h3>Bolognese</h3>
+                    <span class="dots"></span>
+                    <h3>14$</h3>
+
+                    <ul>
+                        <li><a href="#">Italian</a></li>
+                        <li><a href="#">Sauce</a></li>
+                        <li><a href="#">Cheese</a></li>
+                        <li><a href="#">Beef</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="item">
+            <div class="item-name">
+                <h2>Main Course</h2>
+                <img src="./images/drinks.png">
+            </div>
+            <div class="item-body">
+                <div class="item-menu">
+                    <h3>Khinkhali 10pc</h3>
+                    <span class="dots"></span>
+                    <h3>12$</h3>
+
+                    <ul>
+                        <li><a href="#">Georgian</a></li>
+                        <li><a href="#">Dough</a></li>
+                        <li><a href="#">Meat</a></li>
+                        <li><a href="#">Spices</a></li>
+                    </ul>
+                </div>
+
+                <div class="item-menu">
+                    <h3>Bratwurst</h3>
+                    <span class="dots"></span>
+                    <h3>9$</h3>
+
+                    <ul>
+                        <li><a href="#">German</a></li>
+                        <li><a href="#">Sausage</a></li>
+                        <li><a href="#">Mustard</a></li>
+                        <li><a href="#">Bread Bun</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="item">
+            <div class="item-name">
+                <h2>Desserts</h2>
+                <img src="./images/drinks.png">
+            </div>
+            <div class="item-body">
+                <div class="item-menu">
+                    <h3>Small Cake</h3>
+                    <span class="dots"></span>
+                    <h3>6$</h3>
+
+                    <ul>
+                        <li><a href="#">French</a></li>
+                        <li><a href="#">Chocolate</a></li>
+                        <li><a href="#">Sweet</a></li>
+                    </ul>
+                </div>
+
+                <div class="item-menu">
+                    <h3>Ice Cream</h3>
+                    <span class="dots"></span>
+                    <h3>4$</h3>
+
+                    <ul>
+                        <li><a href="#">Vanilla</a></li>
+                        <li><a href="#">Chocolate</a></li>
+                        <li><a href="#">Strawberry</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="item">
+            <div class="item-name">
+                <h2>Drinks</h2>
+                <img src="./images/drinks.png">
+            </div>
+            <div class="item-body">
+                <div class="item-menu">
+                    <h3>Beer</h3>
+                    <span class="dots"></span>
+                    <h3>5$</h3>
+
+                    <ul>
+                        <li><a href="#">German</a></li>
+                        <li><a href="#">Cold</a></li>
+                        <li><a href="#">Fresh</a></li>
+                        <li><a href="#"></a></li>
+                    </ul>
+                </div>
+
+                <div class="item-menu">
+                    <h3>Cocktail</h3>
+                    <span class="dots"></span>
+                    <h3>6$</h3>
+
+                    <ul>
+                        <li><a href="#">Fruits</a></li>
+                        <li><a href="#">Cold</a></li>
+                        <li><a href="#">Fresh</a></li>
+                        <li><a href="#">Healthy</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="our-team" id="team">
+    <h1 class="heading">Our Professional Chefs</h1>
+    <center>
+        <h3 class="sub-heading">~ Experience & Talent ~</h3>
+    </center>
+
+    <div class="our-chef">
+        <div class="item">
+            <div class="image">
+                <img src="./images/gordon.png">
+            </div>
+            <div class="chef-info">
+                <div>
+                    <h3>Gordon Ramsay</h3>
+                    <span>Master Chef</span>
+
+                    <ul>
+                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="item">
+            <div class="image">
+                <img src="./images/jamieoliver.jpg">
+            </div>
+            <div class="chef-info">
+                <div>
+                    <h3>Jamie Oliver</h3>
+                    <span>Master Chef</span>
+
+                    <ul>
+                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="item">
+            <div class="image">
+                <img src="./images/walterwhite.jpg">
+            </div>
+            <div class="chef-info">
+                <div>
+                    <h3>Walter White</h3>
+                    <span>Master Chef</span>
+
+                    <ul>
+                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="blog welcome" id="blog">
+    <h1 class="heading">latest news</h1>
+    <center><h3 class="sub-heading">New Articles</h3></center>
+
+    <div class="box-container">
+        <div class="box">
+            <div class="image">
+                <img src="./images/post-thumb-5.jpg">
+            </div>
+
+            <div class="content">
+                <h3>PROFESSIONAL CHEFS</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A laudantium rem error consequatur eius harum quibusdam consectetur, architecto iusto!</p>
+                <a href="#">READ MORE</a>
+                <img src="./images/post-body-bg-1.png">
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="./images/post-thumb-6.jpg">
+            </div>
+
+            <div class="content">
+                <h3>CLASSIC BEVERAGES</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A laudantium rem error consequatur eius harum quibusdam consectetur, architecto iusto!</p>
+                <a href="#">READ MORE</a>
+                <img src="./images/post-body-bg-1.png">
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="./images/post-thumb-4.jpg">
+            </div>
+
+            <div class="content">
+                <h3>HIGH QUALITY SERVICE</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A laudantium rem error consequatur eius harum quibusdam consectetur, architecto iusto!</p>
+                <a href="#">READ MORE</a>
+                <img src="./images/post-body-bg-1.png">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="footer">
+    <img src="./images/main-logo.png" class="logo">
+
+    <div class="container">
+        <div>
+            <h3>ABOUT US</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur necessitatibus atque distinctio excepturi.
+            </p>
+        </div>
+
+        <div>
+            <h3>GeT NEWS & OFFERS</h3>
+            <input type="email" name="" placeholder="enter your email">
+            <ul>
+                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+            </ul>
+        </div>
+
+        <div>
+            <h3>CONTACT US</h3>
+            <span>Frest Taste</span>
+            <span>+(955) 123456</span>
+            <span>rikach4@gmail.com</span>
+        </div>
+    </div>
+</section>
+
+<a href="#"><button class="topbtn"><i class="fa-solid fa-angle-up"></i></button></a>
+
+<!-- Swiper JS -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+  var swiper = new Swiper(".home-slider", {
+    spaceBetween: 30,
+    centeredSlides: true,
+    autoplay: {
+      delay: 6500,
+      disableOnInteraction: false,
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    loop:true,
+  });
+</script>
+<script src="script.js"></script>
+</body>
+</html>
